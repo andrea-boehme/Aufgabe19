@@ -4,4 +4,5 @@ public class PersonHeightComparator implements Comparator<Person> {
     public int compare(Person p1, Person p2) {
         return p1.getHeight().compareTo(p2.getHeight());
     }
+
 }
